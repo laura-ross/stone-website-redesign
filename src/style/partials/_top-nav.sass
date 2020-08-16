@@ -1,0 +1,121 @@
+@import ./variables
+@import ./global-styles
+
+.App
+  position: relative
+
+.top-nav
+  background: $dark
+  display: flex
+  justify-content: space-between
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 1
+
+
+.logo
+  justify-content: center
+  text-align: center
+  padding: 1rem
+  a
+    color: $light
+
+.nav-menu-wrapper
+  display: flex
+  flex-direction: column
+  background: $dark
+  width: 100%
+  height: 100vh
+  justify-content: space-around
+  align-items: center
+  position: absolute
+  top: -150vh
+  left: 0
+  opacity: 0.95
+  z-index: 2
+  transition: $transition
+
+.top-nav-links
+  margin-top: 2rem
+  width: 100%
+
+.top-nav-links li a,
+.close-nav-btn
+  color: $light
+  font-size: 2rem
+
+.close-nav-btn
+  background: none
+  cursor: pointer
+  transition: 0.5s ease
+  position: absolute
+  top: 2rem
+  right: 2rem
+  z-index: 2
+
+  &:hover
+    opacity: 0.5
+
+.top-nav-links li
+  width: 100%
+
+.top-nav-links li a
+  text-align: center
+  display: block
+  padding: 1.5rem
+  transition: $transition
+
+.top-nav-links li a:hover
+  opacity: $opacity
+
+.open
+  top: 0
+
+/*.top-nav
+  position: relative*/
+
+.nav-menu-toggle
+  width: 60px
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  position: absolute
+  top: 0
+  right: 0
+  cursor: pointer
+  z-index: 1
+
+
+
+.fas,
+.fab
+  font-size: 2rem
+  color: $light
+
+@media(min-width: 1000px)
+  .nav-menu-toggle
+    display: none
+
+  .nav-menu-wrapper
+    position: static
+    flex-direction: row
+    height: auto
+    width: 70%
+
+
+  .close-nav-btn
+    display: none
+
+
+  .top-nav-links
+    display: flex
+    flex-direction: row
+    margin: 0
+
+
+  .top-nav-links li a
+    font-size: 1.5rem
+    padding: 1.3rem

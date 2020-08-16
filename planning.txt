@@ -1,0 +1,49 @@
+font-family: 'Antic Slab', serif
+* font-family: 'Baloo 2', cursive
+font-family: 'PT Sans', sans-serif
+font-family: 'Red Rose', cursive
+font-family: 'Source Code Pro', monospace
+^ The bottom one is what the original website uses
+
+Navigation
+
+HOME PAGE
+Hero
+Short Bio + Read More (link to Bio page)
+A few of his paintings/photos in an interesting grid format
+CTA - Follow on instagram
+Footer
+
+PAGES
+Art
+photo
+Music
+Gallery
+Bio
+Contact
+
+TOOLS
+useRoute
+useHistory
+Sass
+
+DESIGN ELEMENTS
+Fixed Navigation
+Add an active link under each nav link
+Make sure I can tab over nav links & buttons
+Dark
+Possibly monochrome?
+Use Broken grid
+Add animations upon scrolling down
+Glide/Glider.js (which ever one I used)
+
+
+SOCIAL MEDIA LINKS
+https://www.youtube.com/channel/UC9G16K_BtAqQJpiJ3nEwnVg?view_as=subscriber
+
+@stonemalonegallery
+https://www.instagram.com/stonemalonegallery/
+
+https://twitter.com/StonesGallery
+
+Need link to fb page

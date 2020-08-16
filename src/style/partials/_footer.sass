@@ -1,0 +1,31 @@
+@import ./variables
+
+.footer
+  p
+    text-align: center
+    color: $light
+    margin-bottom: 2rem
+
+.footer-wrapper
+  display: flex
+  justify-content: space-around
+  padding: 1rem
+  a
+    color: $light
+    &:hover
+      text-decoration: underline
+
+  .fas,
+  .fab
+    cursor: pointer
+    transition: 0.5s ease
+    padding: 1rem
+
+    &:hover
+      opacity: 0.5
+
+@media(min-width: 700px)
+  .social-links
+    display: flex
+    justify-content: space-between
+    align-items: center
